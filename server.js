@@ -10,10 +10,11 @@ app.use(express.json());
 
 
 const db = mysql.createConnection({
-    host: 'localhost', // 'localhost'
-    user: 'root',
-    password: 'root',
-    database:'my_database'
+    host: 'sql12.freesqldatabase.com', // 'external database'
+    user: 'sql12712369',
+    password: 'eYlZuGDIWK',
+    database:'sql12712369',
+    port:'3306'
 });
 
 db.connect((err) => {
